@@ -7,7 +7,7 @@
 
 <h3>
 
-[Homepage](https://www.ai-hive.net/syzygi)
+[Homepage]AI HIVE  (https://www.ai-hive.net/syzygi)
 
 </h3>
 
