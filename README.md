@@ -67,6 +67,8 @@ pip install streamlit
 
 streamlit_app.py
 
+### Run
+
 ```shell
 streamlit run streamlit_app.py
 ```
