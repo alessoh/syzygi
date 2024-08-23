@@ -54,14 +54,18 @@ pip install 'crewai[tools]'
 
 ``` pip install -r requirements.txt
 ```
-# add new file app.py
+### add new file 
+
+app.py
 
 ### UI Streamlit
 
 ```shell
 pip install streamlit 
 ```
-# add file streamlit_app.py
+### add file 
+
+streamlit_app.py
 
 ```shell
 streamlit run streamlit_app.py
