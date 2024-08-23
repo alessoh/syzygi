@@ -66,19 +66,38 @@ Works with both proprietary (e.g., OpenAI) and open-source models.
 
 ### Installation
 
-pip install -r requirements.txt
+## Getting Started
 
-### Setting Up Your Environment
+To get started follow these simple steps:
 
-Create a .env file in the project root and add your API keys:
+### 1. Installation
 
-OPENAI_API_KEY=your_openai_api_key
-SERPER_API_KEY=your_serper_api_key
+```shell
+pip install crewai
+```
 
-### Running the Application
+```shell
+pip install 'crewai[tools]'
+```
 
+### 2. Setting Up Your Crew
+
+``` pip install -r requirements.txt
+```
+### add new file 
+```
+app.py
+
+```
+### add file 
+
+streamlit_app.py
+
+### Run
+
+``` shell
 streamlit run streamlit_app.py
-
+``` shell
 
 ### Project Structure
 
