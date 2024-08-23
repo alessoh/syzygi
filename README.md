@@ -72,33 +72,28 @@ To get started follow these simple steps:
 
 ### 1. Installation
 
-```shell
+```
 pip install crewai
 ```
 
-```shell
+```
 pip install 'crewai[tools]'
 ```
-
 ### 2. Setting Up Your Crew
-
 ``` pip install -r requirements.txt
 ```
 ### add new file 
 ```
 app.py
-
 ```
 ### add file 
-
+```
 streamlit_app.py
-
+```
 ### Run
-
-``` shell
+``` 
 streamlit run streamlit_app.py
-``` shell
-
+``` 
 ### Project Structure
 
 app.py: Core logic for running AI crews and postmortem analysis
