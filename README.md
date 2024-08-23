@@ -54,14 +54,14 @@ pip install 'crewai[tools]'
 
 ``` pip install -r requirements.txt
 ```
-add app.py
+# add new file app.py
 
 ### UI Streamlit
 
 ```shell
 pip install streamlit 
 ```
-add file streamlit_app.py
+# add file streamlit_app.py
 
 ```shell
 streamlit run streamlit_app.py
@@ -84,20 +84,48 @@ You can test different real life examples of AI crews in the [crewAI-examples re
 - [Landing Page Generator](https://github.com/joaomdmoura/crewAI-examples/tree/main/landing_page_generator)
 
 
-
-
-## How CrewAI Compares
+## How Syzygi and CrewAI Compares
 
 - **Autogen**: While Autogen does good in creating conversational agents capable of working together, it lacks an inherent concept of process. In Autogen, orchestrating agents' interactions requires additional programming, which can become complex and cumbersome as the scale of tasks grows.
 
 - **ChatDev**: ChatDev introduced the idea of processes into the realm of AI agents, but its implementation is quite rigid. Customizations in ChatDev are limited and not geared towards production environments, which can hinder scalability and flexibility in real-world applications.
 
-**CrewAI's Advantage**: CrewAI is built with production in mind. It offers the flexibility of Autogen's conversational agents and the structured process approach of ChatDev, but without the rigidity. CrewAI's processes are designed to be dynamic and adaptable, fitting seamlessly into both development and production workflows.
+- **CrewAI's Advantage**: CrewAI is built with production in mind. It offers the flexibility of Autogen's conversational agents and the structured process approach of ChatDev, but without the rigidity. CrewAI's processes are designed to be dynamic and adaptable, fitting seamlessly into both development and production workflows.
+
+# **Syzygi ** 
+
+Syzygi - AI Agent Team Architecture
+In the rapidly evolving landscape of artificial intelligence, we are witnessing a convergence of multi-agent systems and transformer-based language models. Syzygi presents a novel architecture that synergizes the strengths of specialized AI agents with the powerful mechanisms found in transformer models. It is centered around a large language model (LLM) acting as a neural transformer. This approach aims to enhance collaborative problem-solving, adaptability, and scalability in AI systems.
+​
+Core Components
+At the heart of this architecture lies a team of specialized AI agents, each designed to excel in specific tasks or domains. These agents span a wide range of capabilities, from natural language processing and computer vision to data analysis and logical reasoning. Each agent has clearly defined roles and responsibilities, not only executing tasks within their domain of expertise but also providing domain-specific knowledge to other agents and collaborating on complex tasks that span multiple domains.
+​
+The inter-agent communication is facilitated through a robust set of protocols. These include standardized calls for direct interactions, shared memory spaces for collaborative tasks, and message passing systems for asynchronous communication. 
+​
+Central to the architecture is a large language model, instructed and given system prompts to act as a transformer-like coordinator. This "Neural Transformer" is fine-tuned with specific instructions to emulate key transformer functionalities, with custom prompts designed to trigger attention-like mechanisms and information integration. The Neural Transformer plays a crucial role in coordinating and integrating agent outputs, acting as a central hub for information flow between agents, synthesizing outputs from multiple agents into coherent solutions, and managing task allocation and prioritization based on agent capabilities and task requirements.
+​
+One of the key innovations in this architecture is the adaptive prompting based on task context. The central LLM dynamically generates prompts for agents based on the current task and context, and adjusts its own internal prompts to optimize coordination and integration processes. This adaptability allows the system to flexibly respond to a wide range of tasks and scenarios.
+​
+The Task Decomposition Module is another critical component, responsible for breaking down complex problems into manageable subtasks for efficient ste-by-step processing. It utilizes hierarchical task network (HTN) planning techniques and employs semantic analysis to identify key components of a task. This module also considers dependencies and parallelization opportunities in subtask creation, ensuring optimal distribution of work across the agent team.
+​
+Complementing the Task Decomposition Module is the Integration Module, which combines the outputs of various agents into a cohesive solution. This component utilizes advanced natural language processing to merge textual outputs, employs data fusion techniques for numerical and analytical results, and tracks contributions from different agents. A key feature of this module is its ability to resolve conflicts and inconsistencies, implementing conflict resolution algorithms to handle contradictory outputs and utilizing the central LLM to mediate and decide on conflicting information.
+​
+Transformer-Inspired Mechanisms
+The architecture incorporates several mechanisms inspired by transformer models, adapting them for agent and task management. The attention mechanism, crucial in transformer models, is reimagined for task-agent relevance scoring and dynamic agent prioritization. The system computes relevance scores between tasks and agents based on historical performance and current capabilities, utilizing embedding techniques to represent tasks and agent skills in a shared vector space. This allows for real-time adjustment of agent priorities based on task urgency and agent performance.
+​
+Multiple feedback loops ensure continuous improvement and adaptation. These include inter-agent feedback, where agents provide performance ratings and suggestions to each other, central LLM to agent feedback for guidance and correction, and user to system feedback for real-time adjustments based on user interactions. This multi-layered feedback system creates a dynamic, self-improving ecosystem of agents and processes.
+​
+The weight parameter system dynamically adjusts the influence of different components. It tracks comprehensive performance metrics for each agent, assigns weights to tasks based on user priorities and system goals, and dynamically adjusts the impact of each agent's output on the final solution. This system implements a learning rate to balance stability and adaptability, ensuring that the architecture can evolve without becoming unstable.
+​
+Information Flow and Processing
+The central LLM integration collects outputs from all active agents, standardizes output formats for consistent processing, and applies its attention mechanisms to focus on the most relevant outputs. It weighs agent contributions based on their performance and task relevance, ultimately synthesizing a cohesive solution that ensures consistency and coherence in the final output.
+​
+The output refinement stage involves iterative improvement based on feedback from users, agents, and internal evaluations. Multiple refinement cycles are run to optimize the solution before the final preparation, where the solution is formatted according to user preferences and supplemented with explanations and justifications.
 
 
 ## Contribution
 
-CrewAI is open-source and we welcome contributions. If you're looking to contribute, please:
+Syzygi is open-source and we welcome contributions. If you're looking to contribute, please:
 
 - Fork the repository.
 - Create a new branch for your feature.
@@ -107,11 +135,7 @@ CrewAI is open-source and we welcome contributions. If you're looking to contrib
 
 
 
-Data collected includes:
-
-
-Users can opt-in to Further Telemetry, sharing the complete telemetry data by setting the `share_crew` attribute to `True` on their Crews. Enabling `share_crew` results in the collection of detailed crew and task execution data, including `goal`, `backstory`, `context`, and `output` of tasks. This enables a deeper insight into usage patterns while respecting the user's choice to share.
 
 ## License
 
-CrewAI is released under the MIT License.
+Syzygi is released under the MIT License.
