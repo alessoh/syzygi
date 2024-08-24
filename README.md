@@ -96,8 +96,7 @@ streamlit_app.py
 ``` 
 streamlit run streamlit_app.py
 ``` 
-### Project Structure
-
+## Project Structure
 app.py: Core logic for running AI crews and postmortem analysis
 streamlit_app.py: Streamlit-based user interface
 requirements.txt: Project dependencies
@@ -105,6 +104,7 @@ requirements.txt: Project dependencies
 # How Syzygi Extends CrewAI
 Syzygi builds upon CrewAI's foundation to create a more sophisticated and adaptable AI agent collaboration system:
 
+## Project Structure under development
 ### Neural Transformer: 
 Implements a central LLM to coordinate and integrate agent outputs, inspired by transformer architectures.
 Adaptive Prompting: Dynamically generates prompts for agents based on task context, enhancing flexibility and performance.
@@ -124,3 +124,6 @@ Scalability: Designed with production environments in mind, allowing for easier 
 
 ### Flexible Process Management: 
 While building on CrewAI's sequential and hierarchical processes, Syzygi aims to introduce more complex processes like consensual and autonomous in future iterations.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
