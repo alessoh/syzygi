@@ -40,7 +40,6 @@ Scalability: Designed with production environments in mind, allowing for easier 
 ### Flexible Process Management: 
 While building on CrewAI's sequential and hierarchical processes, Syzygi aims to introduce more complex processes like consensual and autonomous in future iterations.
 
-
 # Key Features
 
 ### Role-Based Agent Design: 
@@ -53,7 +52,6 @@ Agents can autonomously delegate tasks and inquire amongst themselves.
 Define tasks with customizable tools and assign them to agents dynamically.
 
 ### Processes Driven: 
-
 Supports sequential task execution and hierarchical processes.
 
 ### Output Handling: 
@@ -62,25 +60,19 @@ Save outputs as files or parse them as Pydantic models or JSON.
 ### Open Source Model Compatibility: 
 Works with both proprietary (e.g., OpenAI) and open-source models.
 
-# Getting Started
-
-### Installation
+# Installation
 
 ## Getting Started
-
 To get started follow these simple steps:
 
 ### 1. Installation
-
 ```
 pip install crewai
 ```
-
 ```
 pip install 'crewai[tools]'
 ```
 ### 2. Setting Up Your Crew
-
 ``` 
 pip install -r requirements.txt
 ```
@@ -97,11 +89,16 @@ streamlit_app.py
 streamlit run streamlit_app.py
 ``` 
 ## Project Structure
-app.py: Core logic for running AI crews and postmortem analysis
-streamlit_app.py: Streamlit-based user interface
-requirements.txt: Project dependencies
+### app.py: 
+Core logic for running AI crews and postmortem analysis
 
-# How Syzygi Extends CrewAI
+### streamlit_app.py: 
+Streamlit-based user interface
+
+### requirements.txt: 
+Project dependencies
+
+### How Syzygi Extends CrewAI
 Syzygi builds upon CrewAI's foundation to create a more sophisticated and adaptable AI agent collaboration system:
 
 ## Project Structure under development
