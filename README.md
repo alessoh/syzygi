@@ -26,7 +26,7 @@ Syzygi presents a novel architecture that synergizes the strengths of specialize
 ![Alt text](./agentTransformer3.png)
 
 # How Syzygi Extends CrewAI
- While LangChain provides a comprehensive toolkit for building LLM-powered applications, CrewAI specializes in creating collaborative multi-agent systems. CrewAI leverages LangChain's capabilities but adds a layer of abstraction specifically designed for orchestrating multiple AI agents working together on complex tasks. Syzygi builds upon CrewAI's foundation to create a more sophisticated and adaptable AI agent collaboration system.
+ While LangChain provides a comprehensive toolkit for building LLM-powered applications, CrewAI specializes in creating collaborative multi-agent systems. CrewAI leverages LangChain's capabilities but adds a layer of abstraction specifically designed for orchestrating multiple AI agents working together on complex tasks. Syzygi builds upon CrewAI's foundation to create a more sophisticated and adaptable AI agent self-improvement system.
 
 ### Neural Transformer:
 Implements a central LLM to coordinate and integrate agent outputs, inspired by transformer architectures.
