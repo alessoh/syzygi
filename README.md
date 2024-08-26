@@ -1,6 +1,6 @@
 # SYZYGI
 
-Syzygi is a cutting-edge framework for orchestrating role-playing, autonomous AI agents. Built on top of CrewAI, Syzygi fosters collaborative intelligence, empowering agents to work together seamlessly and tackle complex tasks.
+Syzygi is a self-improvement framework for orchestrating role-playing, autonomous AI agents. Built on top of CrewAI, Syzygi fosters collaborative intelligence, empowering agents to work together seamlessly and tackle complex tasks.
 
 ### [Homepage]
 AI HIVE (https://www.ai-hive.net/syzygi)
