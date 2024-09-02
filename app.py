@@ -2,6 +2,9 @@ import os
 from datetime import datetime
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import SerperDevTool
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def save_to_file(content, file_type):
     # Create a 'results' directory if it doesn't exist
@@ -21,8 +24,8 @@ def save_to_file(content, file_type):
     return filename
 
 def run_crew(user_request):
-    os.environ["OPENAI_API_KEY"] = ""
-    os.environ["SERPER_API_KEY"] = ""
+    os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+    os.environ["SERPER_API_KEY"] = os.getenv("SERPER_API_KEY")
 
     search_tool = SerperDevTool()
 
@@ -76,8 +79,8 @@ def run_crew(user_request):
     return result
 
 def run_postmortem(postmortem_request, previous_result):
-    os.environ["OPENAI_API_KEY"] = ""
-    os.environ["SERPER_API_KEY"] = ""
+    os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+    os.environ["SERPER_API_KEY"] = os.getenv("SERPER_API_KEY")
 
     search_tool = SerperDevTool()
 
