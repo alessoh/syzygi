@@ -34,15 +34,15 @@ SYZYGI addresses the challenges of poor coordination, limited adaptability, and 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/test1.git
+   git clone https://github.com/yourusername/syzygi.git
    cd syzygi
    ```
 
 2. Create and activate a virtual environment:
    ```
-   conda create -n test1 python=3.11
-   cd test1
-   conda activate test1
+   conda create -n syzygi python=3.11
+   cd syzygi
+   conda activate syzygi
 
    ```
 
