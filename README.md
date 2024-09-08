@@ -50,7 +50,7 @@ The project leverages CrewAI for agent orchestration and extends it with custom 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/syzygi.git
+   git clone https://github.com/alessoh/syzygi.git
    cd syzygi
    ```
 
