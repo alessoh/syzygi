@@ -137,7 +137,7 @@ SYZYGI implements a continuous learning module to improve its performance over t
 - Configuration file for easily adjustable parameters (e.g., model hyperparameters, scheduling intervals).
 - Improved API documentation with detailed docstrings for all functions and classes.
 
-   # Diagram of current logic
+   # Diagram of future neural net logic
 
 ![Alt text](./neuralnetlogic.png)
 
